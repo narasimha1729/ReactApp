@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 //import Counter from "./Counter";
 import State from "./State";
@@ -12,7 +11,6 @@ function App() {
       {/* Navigation */}
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
           <li><Link to="/count">Count</Link></li>
           <li><Link to="/state">State</Link></li>
         </ul>
