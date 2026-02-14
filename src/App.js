@@ -2,7 +2,6 @@ import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
 //import Counter from "./Counter";
 import State from "./State";
-import Parent from "./Parent";
 import Count from "./Count";
 
 function App() {
